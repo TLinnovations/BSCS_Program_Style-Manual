@@ -1,58 +1,54 @@
-# ✨ BSCS Online Program Style Manual
+<div align="center">
+  <img src="assets/images/TLi_Logo.png" alt="TLi Program Logo" width="200"/>
+  <h3>CSU Channel Islands | TLi</h3>
+  <p>A visual component library for Canvas online courses</p>
+</div>
+
+# Welcome to the BSCS Style Manual
 
 Welcome to the official style manual for the BS Computer Science Online Completion Program at CSU Channel Islands.
 
-This repository serves as the central hub for guidelines, documentation, and resources related to designing, developing, maintaining, and customizing our Canvas LMS course templates. It is designed to assist our internal team (TLi), vendor (Construct), and faculty (CompSci) in creating high-quality, consistent, and accessible online course materials.
+This repository serves as the central hub for all UI components, code snippets, and visual assets needed to create consistent, accessible, and pedagogically sound Canvas courses. Designed specifically for instructional designers, course developers, and faculty, this library streamlines the course creation process by providing ready-to-use components that maintain visual consistency across the entire program.
+
+
+### Who This Repository Serves
+
+- **TLi Team** - Teaching & Learning innovations staff responsible for overseeing course development
+- **Construct Team** - Our vendor partners who build and implement courses in Canvas
+- **Computer Science Faculty** - Subject Matter Experts who provide course content and teach the courses
+- **Instructional Technologists** - Staff who support and maintain courses after development
+
+### What You'll Find Here
+
+This repository contains visual examples, code snippets, and templates that follow our program's design standards, accessibility requirements, and pedagogical approach. All components are:
+
+- **Visually consistent** with Computer Science branding and color scheme
+- **Fully accessible** and WCAG 2.2 AA compliant
+- **Mobile-responsive** for students on any device
+- **Easy to implement** with simple copy-and-paste code
+
+Everything is organized visually with screenshots showing how components will look in Canvas, making it easy to find exactly what you need without diving into code first.
+
+<div align="center">
+  <a href="#about">About</a> •
+  <a href="#visual-components">Visual Components</a> •
+  <a href="#templates">Templates</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#style-guide">Style Guide</a> •
+  <a href="#accessibility">Accessibility</a> •
+  <a href="#support">Support</a>
+</div>
 
 ---
 
-## 📚 Table of Contents
+## About
 
-- [📖 Overview](#overview)
-- [📁 Repository Structure](#repository-structure)
-- [🚀 Getting Started](#getting-started)
-- [💻 Canvas Course Template Guidelines](#canvas-course-template-guidelines)
-- [🤝 Contribution Guidelines](#contribution-guidelines)
-- [🎨 Style Guide](#style-guide)
-- [📝 Documentation Standards](#documentation-standards)
-- [✔️ Testing & Validation](#testing--validation)
-- [❓ FAQ & Troubleshooting](#faq--troubleshooting)
-- [📞 Contact & Support](#contact--support)
+This repository contains ready-to-use UI components for building Canvas courses for the BSCS Online Degree Completion Program. These components help ensure visual consistency, accessibility compliance, and pedagogical effectiveness across all courses.
 
----
+✨ **[View Complete Style Guide Document](https://docs.google.com/document/d/1FqPsk0VLODkxEGyBLVnoIZRcHCWer9_nRR4w81oCWeE/edit?usp=sharing)**
 
-## 📖 Overview
+![Example Course Page](assets/images/example-preview.png)
 
-The BSCS Online Program Style Manual repository aims to:
-
--   **Provide clear and comprehensive guidelines** for developing and updating the BS Computer Science Canvas LMS course templates.
--   **Ensure consistency and quality** across all course materials.
--   **Facilitate collaboration** among internal teams (TLi), the vendor (Construct), and faculty (CompSci).
--   **Offer detailed instructions** on content creation, style, and coding standards.
-
----
-
-## 📁 Repository Structure
-
-The repository is organized as follows:
-
-```text
-.
-├── .github/BSCS_Program_Style-Manual/
-│   ├── ISSUE_TEMPLATE.md         # Template for reporting issues
-│   └── PULL_REQUEST_TEMPLATE.md  # Template for pull requests
-├── docs/
-│   ├── README.md                 # Overview and documentation index (this file)
-│   ├── STYLE_GUIDE.md            # Detailed style guidelines for content and code
-│   ├── CONTRIBUTING.md           # Guidelines for collaboration
-│   └── FAQ.md                    # Frequently asked questions and troubleshooting tips
-├── src/
-│   ├── templates/                # Canvas course template files (Code Snippets)
-│   ├── assets/                   # Images, icons, and other media
-│   └── scripts/                  # Utility scripts for deployment and testing
-└── LICENSE                       # Licensing details
-
-```
 ---
 
 ## 📬 Contact & Support 

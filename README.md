@@ -56,7 +56,7 @@ This repository contains ready-to-use UI components for building Canvas courses 
 ### Module Banners
 
 <div align="center">
-  <img src="assets/images/banners-preview.png" alt="Module Banner Examples" width="600"/>
+  <img src="components/banners/modules/Module#_800x300_Banner@2x.png" alt="Module Banner Example" width="800"/>
 </div>
 
 Each module has a specific color scheme:

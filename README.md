@@ -6,9 +6,7 @@
   <p>A visual component library for creating consistent Canvas online courses</p>
 </div>
 
-## Welcome to the BSCS Style Manual
-
-Welcome to the official style manual for the BS Computer Science Online Completion Program at CSU Channel Islands.
+## Welcome to the BS Computer Science Style Manual ✨
 
 This repository serves as the central hub for all UI components, code snippets, and visual assets needed to create consistent, accessible, and pedagogically sound Canvas courses. Designed specifically for instructional designers, course developers, and faculty, this library streamlines the course creation process by providing ready-to-use components that maintain visual consistency across the entire program.
 
@@ -52,9 +50,8 @@ This repository contains ready-to-use UI components for building Canvas courses 
 
 ---
 
-
-
 ## Visual Components
+
 
 ### Module Banners
 
@@ -67,6 +64,10 @@ Each module has a specific color scheme:
 - **Module 1-8:** Program color palette (green, blue, orange, etc.)
 
 👉 **[Browse All Banners](components/banners/)**
+
+<div align="center">
+  <p>• • • • • • • • • • • • • • • • • • • •</p>
+</div>
 
 ### Instructional Icons
 
@@ -83,6 +84,10 @@ Standard icons for specific content types:
 
 👉 **[Browse All Icons](components/icons/)**
 
+<div align="center">
+  <p>• • • • • • • • • • • • • • • • • • • •</p>
+</div>
+
 ### Interactive Elements
 
 <div align="center">
@@ -95,6 +100,10 @@ Standard icons for specific content types:
 - Flip Cards
 
 👉 **[Browse Interactive Elements](components/interactive/)**
+
+<div align="center">
+  <p>• • • • • • • • • • • • • • • • • • • •</p>
+</div>
 
 ## Templates
 
@@ -129,6 +138,10 @@ Pre-built page templates ready to use in Canvas:
 
 👉 **[Browse All Templates](templates/)**
 
+<div align="center">
+  <p>• • • • • • • • • • • • • • • • • • • •</p>
+</div>
+
 ## Installation
 
 ### Option 1: Copy & Paste (Recommended for Non-Technical Users)
@@ -160,6 +173,10 @@ The complete style guide provides detailed guidelines on:
 
 👉 **[View Complete Style Guide](https://docs.google.com/document/d/1FqPsk0VLODkxEGyBLVnoIZRcHCWer9_nRR4w81oCWeE/edit?usp=sharing)**
 
+<div align="center">
+  <p>• • • • • • • • • • • • • • • • • • • •</p>
+</div>
+
 ## Accessibility
 
 All components are designed to meet WCAG 2.2 AA standards:
@@ -171,6 +188,7 @@ All components are designed to meet WCAG 2.2 AA standards:
 
 For accessibility questions, contact Kristi O'Neil-Gonzalez (kristi.oneilgonzalez@csuci.edu).
 
+---
 ## Contact and Support
 
 For questions or support regarding this style manual, please reach out to:

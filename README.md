@@ -1,7 +1,7 @@
 # BSCS Online Program UI Component Library
 
 <div align="center">
-  <img src="assets/TLi_Logo.png" alt="TLi Teaching and Learning Innovations Logo" width="80"/>
+  <img src="assets/images/TLi_Logo.png" alt="TLi Teaching and Learning Innovations Logo" width="80"/>
   <h3>CSU Channel Islands | TLi & Extended University</h3>
   <p>A visual component library for creating consistent Canvas online courses</p>
 </div>

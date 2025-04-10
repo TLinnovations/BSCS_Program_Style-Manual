@@ -56,14 +56,12 @@ This repository contains ready-to-use UI components for building Canvas courses 
 ### Module Banners
 
 <div align="center">
-  <img src="components/banners/modules/Module#_800x300_Banner@2x.png" alt="Module Banner Example" width="800"/>
+  <img src="components/banners/modules/Modules_800x300_Banner@2x.png" alt="Module Banner Example" width="800"/>
 </div>
 
-Each module has a specific color scheme:
-- **Module 0:** CSUCI branded red
-- **Module 1-8:** Program color palette (green, blue, orange, etc.)
+Each module page will begin with a banner. Once the SME has finalized the modules titles, please notify Ana M Penaranda ([ana.penarandaleal@csuci.edu](mailto:ana.penarandaleal@csuci.edu)). She will upload the corresponding banner to the link below for you to download.
 
-👉 **[Browse All Banners](components/banners/)**
+👉 **[Browse All Banners](components/banners/modules/)**
 
 <div align="center">
   <p>• • • • • • • • • • • • • • • • • • • •</p>

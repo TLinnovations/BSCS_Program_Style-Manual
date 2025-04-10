@@ -46,7 +46,7 @@ Everything is organized visually with screenshots showing how components will lo
 
 This repository contains ready-to-use UI components for building Canvas courses for the BSCS Online Degree Completion Program. These components help ensure visual consistency, accessibility compliance, and pedagogical effectiveness across all courses.
 
-✨ **[View Complete Style Guide Document](https://docs.google.com/document/d/YOUR_GOOGLE_DOC_ID)**
+✨ **[View Complete Style Guide Document](https://docs.google.com/document/d/1FqPsk0VLODkxEGyBLVnoIZRcHCWer9_nRR4w81oCWeE/edit?usp=sharing)**
 
 ![Example Course Page](assets/images/example-preview.png)
 
@@ -150,12 +150,11 @@ Pre-built page templates ready to use in Canvas:
 
 The complete style guide provides detailed guidelines on:
 
-- Color schemes and typography
-- Content organization
+- Modular Content organization
 - Accessibility requirements
-- Pedagogical best practices
+- Best practices
 
-👉 **[View Complete Style Guide](https://docs.google.com/document/d/YOUR_GOOGLE_DOC_ID)**
+👉 **[View Complete Style Guide](https://docs.google.com/document/d/1FqPsk0VLODkxEGyBLVnoIZRcHCWer9_nRR4w81oCWeE/edit?usp=sharing)**
 
 ## Accessibility
 
@@ -173,7 +172,7 @@ For accessibility questions, contact Kristi O'Neil-Gonzalez (kristi.oneilgonzale
 For questions or support regarding this style manual, please reach out to:
 
 * **Lorna Gonzalez:** Director of Digital Learning ([lorna.gonzales@csuci.edu](mailto:lorna.gonzales@csuci.edu))
-* **Ana M. Peñaranda:** Learning Designer ([ana.penarandaleal@csuci.edu](mailto:ana.penarandaleal@csuci.edu))
+* **Ana M. Penaranda:** Learning Design Lead & Project Manager ([ana.penarandaleal@csuci.edu](mailto:ana.penarandaleal@csuci.edu))
 * **Kristi O'Neil-Gonzalez:** Accessibility & Inclusive Design Lead ([kristi.oneilgonzalez@csuci.edu](mailto:kristi.oneilgonzalez@csuci.edu))
 
 ---

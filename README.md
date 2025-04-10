@@ -2,8 +2,8 @@
 
 <div align="center">
   <img src="assets/TLi_Logo.png" alt="TLi Teaching and Learning Innovations Logo" width="80"/>
-  <h3>California State University Channel Islands</h3>
-  <p>A visual component library for creating consistent Canvas courses</p>
+  <h3>CSU Channel Islands | TLi & Extended University</h3>
+  <p>A visual component library for creating consistent Canvas online courses</p>
 </div>
 
 ## Welcome to the BSCS Style Manual

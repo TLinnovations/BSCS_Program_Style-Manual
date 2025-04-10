@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/images/TLi_Logo.png" alt="TLi Program Logo" width="200"/>
+  <img src="assets/TLi_Logo.png" alt="TLi Program Logo" width="80"/>
   <h3>CSU Channel Islands | TLi</h3>
   <p>A visual component library for Canvas online courses</p>
 </div>

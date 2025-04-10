@@ -50,6 +50,10 @@ This repository contains ready-to-use UI components for building Canvas courses 
 
 ![Example Course Page](assets/images/example-preview.png)
 
+---
+
+
+
 ## Visual Components
 
 ### Module Banners

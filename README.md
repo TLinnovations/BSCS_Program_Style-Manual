@@ -100,7 +100,7 @@ When in doubt about which emoji to use, contact Ana M. Peñaranda ([ana.penarand
 ### Interactive Elements
 
 <div align="center">
-  <img src="assets/images/interactive-preview.png" alt="Interactive Elements" width="600"/>
+  <img src="components/interactive/interactive-components.png" alt="Interactive Elements" width="900"/>
 </div>
 
 - Accordions

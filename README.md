@@ -108,7 +108,7 @@ When in doubt about which emoji to use, contact Ana M. Peñaranda ([ana.penarand
 - Back to Top Button
 - Sections and Cards
 
-👉 **[Browse Interactive Elements](components/interactive/index.html)**
+👉 **[Browse Interactive Elements](https://tlinnovations.github.io/BSCS_Program_Style-Manual/)**
 
 <div align="center">
   <p>• • • • • • • • • • • • • • • • • • • •</p>

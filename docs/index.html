@@ -26,7 +26,7 @@
             font-size: 2.5rem;
             margin-bottom: 1.5rem;
             text-align: center;
-            background: linear-gradient(90deg, #0A1E3F, #2CA4CD);
+            background: linear-gradient(90deg, #2CA4CD, #4db8e5);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -235,25 +235,25 @@
             background-color: #2CA4CD;
         }
         
-        /* Dark mode styles */
+        /* Dark mode styles with improved contrast */
         body.dark-mode {
             background-color: #121212;
-            color: #e0e0e0;
+            color: #ffffff;
         }
         
         body.dark-mode .component-section {
             background-color: #1e1e1e;
-            border-color: #333;
+            border-color: #444;
         }
         
         body.dark-mode .nav-container {
             background-color: rgba(30, 30, 30, 0.95);
-            border-color: #333;
+            border-color: #444;
         }
         
         body.dark-mode .nav-link {
             background-color: #333;
-            color: #e0e0e0;
+            color: #ffffff;
         }
         
         body.dark-mode .nav-link:hover {
@@ -263,15 +263,123 @@
         
         body.dark-mode .example-display {
             background-color: #252525;
-            border-color: #444;
+            border-color: #555;
+            color: #ffffff;
         }
         
-        body.dark-mode h1, body.dark-mode h2, body.dark-mode h3 {
-            color: #2CA4CD;
+        body.dark-mode h1 {
+            background: linear-gradient(90deg, #4db8e5, #7dd3ff);
+            -webkit-background-clip: text;
+            background-clip: text;
+        }
+        
+        body.dark-mode h2, body.dark-mode h3 {
+            color: #4db8e5;
         }
         
         body.dark-mode .component-header {
-            border-color: #333;
+            border-color: #444;
+        }
+        
+        body.dark-mode .component-description {
+            color: #e6e6e6;
+        }
+        
+        body.dark-mode code {
+            color: #f8f8f8;
+        }
+        
+        body.dark-mode .code-container {
+            background-color: #0d1117;
+            border-color: #30363d;
+        }
+        
+        body.dark-mode .tag { color: #ff7b72; }
+        body.dark-mode .attr { color: #ffa657; }
+        body.dark-mode .string { color: #a5d6ff; }
+        body.dark-mode .comment { color: #8b949e; }
+        
+        body.dark-mode p {
+            color: #e6e6e6;
+        }
+        
+        body.dark-mode .footer {
+            background-color: #1e1e1e;
+            border-top-color: #444;
+            color: #e6e6e6;
+        }
+        
+        /* Component preview dark mode styles */
+        body.dark-mode .example-display details {
+            border-color: #444 !important;
+        }
+        
+        body.dark-mode .example-display details div {
+            background-color: #2a2a2a !important;
+            color: #ffffff !important;
+            border-color: #444 !important;
+        }
+        
+        body.dark-mode .example-display details p {
+            color: #e6e6e6 !important;
+        }
+        
+        body.dark-mode .example-display div[style*="background-color: #e6f7ff"] {
+            background-color: #1a3a4a !important;
+            border-color: #2196f3 !important;
+        }
+        
+        body.dark-mode .example-display div[style*="background-color: #f8d7da"] {
+            background-color: #4a2a2a !important;
+            border-color: #dc3545 !important;
+        }
+        
+        body.dark-mode .example-display div[style*="background-color: #fff8e1"] {
+            background-color: #4a452a !important;
+            border-color: #ffc107 !important;
+        }
+        
+        body.dark-mode .example-display h3[style*="color: #0363a5"] {
+            color: #4db8e5 !important;
+        }
+        
+        body.dark-mode .example-display h3[style*="color: #721c24"] {
+            color: #ff7b72 !important;
+        }
+        
+        body.dark-mode .example-display h3[style*="color: #856404"] {
+            color: #ffd666 !important;
+        }
+        
+        body.dark-mode .example-display p[style*="color: #444"] {
+            color: #e6e6e6 !important;
+        }
+        
+        body.dark-mode .example-display p[style*="color: #666"] {
+            color: #cccccc !important;
+        }
+        
+        body.dark-mode .example-display div[style*="background: linear-gradient(135deg, #ffffff, #f7f9fc)"] {
+            background: linear-gradient(135deg, #2a2a2a, #252525) !important;
+            border-color: #444 !important;
+        }
+        
+        body.dark-mode .example-display h3[style*="color: #1a4b8c"] {
+            color: #4db8e5 !important;
+        }
+        
+        body.dark-mode .example-display a[style*="background-color: #f8f9fa"] {
+            background-color: #333 !important;
+            color: #ffffff !important;
+            border-color: #4db8e5 !important;
+        }
+        
+        body.dark-mode .example-display a[style*="color: #0A1E3F"] {
+            color: #ffffff !important;
+        }
+        
+        body.dark-mode .example-display span[style*="color: #0A1E3F"] {
+            color: #ffffff !important;
         }
         
         /* Responsive design improvements */
@@ -300,6 +408,11 @@
             
             #back-to-top span:last-child {
                 font-size: 16px;
+            }
+            
+            .footer {
+                padding: 15px;
+                font-size: 14px;
             }
         }
         
@@ -366,6 +479,18 @@
             transform: translateY(-5px);
             box-shadow: 0 8px 15px rgba(0,0,0,0.2);
         }
+        
+        /* Footer styles */
+        .footer {
+            margin-top: 60px;
+            padding: 20px;
+            text-align: center;
+            border-top: 1px solid #e0e0e0;
+            background-color: #f5f5f5;
+            border-radius: 0 0 12px 12px;
+            font-size: 0.9rem;
+            color: #666;
+        }
     </style>
 </head>
 <body id="top">
@@ -380,7 +505,7 @@
     </div>
 
     <h1>Canvas LMS UI Component Library</h1>
-    <p style="text-align: center; font-size: 1.2rem; max-width: 800px; margin: 0 auto 40px; color: #555;">This library provides reusable code snippets for building accessible, responsive UI components in Canvas LMS. All components use inline CSS only (no external stylesheets or JavaScript) and follow WCAG 2.2 accessibility standards.</p>
+    <p style="text-align: center; font-size: 1.2rem; max-width: 800px; margin: 0 auto 40px; color: #444;">This library provides reusable code snippets for building accessible, responsive UI components in Canvas LMS. All components use inline CSS only (no external stylesheets or JavaScript) and follow WCAG 2.2 accessibility standards.</p>
 
     <!-- ACCORDIONS -->
     <div id="accordions" class="component-section">
@@ -648,6 +773,11 @@
         </div>
     </div>
 
+    <!-- Footer -->
+    <footer class="footer">
+        &copy; 2025 CSU Channel Islands, TLi &amp; Extended University. All rights reserved.
+    </footer>
+
     <!-- Add actual back to top button like in the user's design -->
     <a id="back-to-top" href="#top" aria-label="Back to top of page. Returns you to the beginning of this page."> 
         <span style="display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; background-color: rgba(255,255,255,0.15); border-radius: 22px; margin-left: 3px;"> 
@@ -703,14 +833,26 @@
             
             // Dark mode toggle
             const themeToggle = document.getElementById('theme-toggle');
+            
+            // Check for saved theme preference or respect OS preference
+            const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+            const savedTheme = localStorage.getItem('theme');
+            
+            if (savedTheme === 'dark' || (!savedTheme && prefersDarkScheme.matches)) {
+                document.body.classList.add('dark-mode');
+                themeToggle.textContent = '☀️';
+            }
+            
             themeToggle.addEventListener('click', function() {
                 document.body.classList.toggle('dark-mode');
                 
-                // Update toggle icon
+                // Update toggle icon and save preference
                 if (document.body.classList.contains('dark-mode')) {
                     themeToggle.textContent = '☀️';
+                    localStorage.setItem('theme', 'dark');
                 } else {
                     themeToggle.textContent = '🌓';
+                    localStorage.setItem('theme', 'light');
                 }
             });
         });

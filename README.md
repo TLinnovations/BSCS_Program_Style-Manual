@@ -32,7 +32,6 @@ Everything is organized visually with screenshots showing how components will lo
   <a href="#about">About</a> •
   <a href="#visual-components">Visual Components</a> •
   <a href="#templates">Templates</a> •
-  <a href="#installation">Installation</a> •
   <a href="#style-guide">Style Guide</a> •
   <a href="#accessibility">Accessibility</a> •
   <a href="#contact-and-support">Contact and Support</a>
@@ -71,14 +70,20 @@ Each module page will begin with a banner. Once the SME has finalized the module
 
 We're using emojis instead of traditional image icons to align with how newer generations communicate. Emojis are lightweight, look sharp on any screen size, are easy to customize, and come with built-in accessibility descriptions—making (Unicode characters) them a flexible and inclusive choice for our course design.
 
-Standard icons for specific content types:
-- 💡 Content Purpose
-- 🎯 Learning Objectives
-- 📖 Reading Materials
-- 📺 Video Content
-- 📝 Assignments
+This table provides the recommended emojis for consistent and accessible iconography across modules in the online course.
 
-When in doubt about which emoji to use, contact Ana M. Peñaranda ([ana.penarandaleal@csuci.edu](mailto:ana.penarandaleal@csuci.edu)).
+| **Section**            | **Emoji** | **Unicode Code** | **Name**               |
+|------------------------|-----------|------------------|------------------------|
+| Module Overview        | 🧭        | U+1F9ED          | Compass                |
+| Learning Objectives    | 🎯        | U+1F3AF          | Direct Hit (Target)    |
+| Core Readings          | 📖        | U+1F4D6          | Open Book              |
+| Lecture (Video)        | 🎬        | U+1F3AC          | Clapper Board          |
+| Additional Resources   | 🔗        | U+1F517          | Link                   |
+| Lab                   | ⌨️         | U+2328           | Keyboard               |
+| Discussion             | 💬        | U+1F4AC          | Speech Balloon         |
+| Quiz                   | 📝        | U+1F4DD          | Memo (Writing)         |
+| Summary                | 🪄        | U+1FA84          | Magic Wand             |
+
 
 For PDFs, use the image icon provided in the link below. 
 <div align="left">
@@ -86,6 +91,8 @@ For PDFs, use the image icon provided in the link below.
 </div>
 
 👉 **[Browse All Icons](components/icons/)** 
+
+When in doubt about which emoji to use, contact Ana M. Peñaranda ([ana.penarandaleal@csuci.edu](mailto:ana.penarandaleal@csuci.edu)).
 
 <div align="center">
   <p>• • • • • • • • • • • • • • • • • • • •</p>
@@ -98,9 +105,10 @@ For PDFs, use the image icon provided in the link below.
 </div>
 
 - Accordions
-- Tabs
-- Interactive Checklists
-- Flip Cards
+- Call outs
+- Back to Top Button
+- Buttons
+- Cards and Sections
 
 👉 **[Browse Interactive Elements](components/interactive/)**
 
@@ -114,19 +122,19 @@ Pre-built page templates ready to use in Canvas:
 
 <div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
   <div style="width: 48%; margin-bottom: 20px;">
-    <h3>Module Overview</h3>
+    <h3>Homepage</h3>
     <a href="templates/module-overview.html">
       <img src="assets/images/template-module.png" alt="Module Overview Template" width="100%"/>
     </a>
   </div>
   <div style="width: 48%; margin-bottom: 20px;">
-    <h3>Content Page</h3>
+    <h3>Syllabus</h3>
     <a href="templates/content-page.html">
       <img src="assets/images/template-content.png" alt="Content Page Template" width="100%"/>
     </a>
   </div>
   <div style="width: 48%; margin-bottom: 20px;">
-    <h3>Assignment</h3>
+    <h3>Student Support</h3>
     <a href="templates/assignment-page.html">
       <img src="assets/images/template-assignment.png" alt="Assignment Template" width="100%"/>
     </a>
@@ -139,32 +147,12 @@ Pre-built page templates ready to use in Canvas:
   </div>
 </div>
 
+
 👉 **[Browse All Templates](templates/)**
 
 <div align="center">
   <p>• • • • • • • • • • • • • • • • • • • •</p>
 </div>
-
-## Installation
-
-### Option 1: Copy & Paste (Recommended for Non-Technical Users)
-
-1. Browse to the component you want
-2. Click the component to view its HTML code
-3. Click the "Copy" button
-4. In Canvas, edit your page and click the HTML Editor button (<>)
-5. Paste the code and customize as needed
-
-<div align="center">
-  <img src="assets/images/copy-paste-guide.png" alt="Copy and Paste Guide" width="600"/>
-</div>
-
-### Option 2: Download Files
-
-1. Click the green "Code" button above
-2. Select "Download ZIP"
-3. Extract the files to your computer
-4. Open the files in a text editor to copy code as needed
 
 ## Style Guide
 

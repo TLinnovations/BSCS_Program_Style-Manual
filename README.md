@@ -45,12 +45,11 @@ This repository contains ready-to-use UI components for building Canvas courses 
 
 ✨ **[View Complete Style Guide Document](https://docs.google.com/document/d/1FqPsk0VLODkxEGyBLVnoIZRcHCWer9_nRR4w81oCWeE/edit?usp=sharing)**
 
-![Example Course Page](assets/images/example-preview.pdf)
+[Example Course Pages](assets/images/example-preview.pdf)
 
 ---
 
 ## Visual Components
-
 
 ### Module Banners
 

@@ -81,6 +81,24 @@ This table provides the recommended emojis for consistent and accessible iconogr
 | Discussion             | 💬        | U+1F4AC          | Speech Balloon         |
 | Quiz                   | 📝        | U+1F4DD          | Memo (Writing)         |
 | Summary                | 🪄        | U+1FA84          | Magic Wand             |
+| Key Takeaways          | 💎        | U+1F48E          | Gem Stone              |
+| Before You Watch       | 📌        | U+1F4CC          | Pushpin                |
+| Student Instructions   | 📋        | U+1F4CB          | Clipboard              |
+| Reflection             | 🤔        | U+1F914          | Thinking Face          |
+| Critical Analysis      | 🔍        | U+1F50D          | Magnifying Glass       |
+| Content Connections    | 🧠        | U+1F9E0          | Brain                  |
+| Assignment Description | 📝        | U+1F4DD          | Memo (Writing)         |
+| Submission Information | 📤        | U+1F4E4          | Outbox Tray           |
+| Grading Information    | 📊        | U+1F4CA          | Bar Chart             |
+| Deadline Reminder      | ⏰        | U+23F0           | Alarm Clock           |
+| Quiz Purpose           | ℹ️        | U+2139           | Information           |
+| Quiz Details           | ⚙️        | U+2699           | Gear                  |
+| Time Management        | ⏱️        | U+23F1           | Stopwatch             |
+| Study Strategies       | 🧠        | U+1F9E0          | Brain                 |
+| Module Wrap-Up         | 🏁        | U+1F3C1          | Checkered Flag        |
+| Looking Ahead          | 🔭        | U+1F52D          | Telescope             |
+| Tips for Success       | 💡        | U+1F4A1          | Light Bulb            |
+| Sources                | 📝        | U+1F4DD          | Memo (Writing)        |
 
 
 For PDFs, use the image icon provided in the link below. 

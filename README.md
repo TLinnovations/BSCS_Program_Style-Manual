@@ -67,11 +67,9 @@ Each module page will begin with a banner. Once the SME has finalized the module
   <p>• • • • • • • • • • • • • • • • • • • •</p>
 </div>
 
-### Instructional Icons
+### Emoji-Based Iconography 🎯
 
-<div align="center">
-  <img src="assets/images/icons-preview.png" alt="Instructional Icon Set" width="600"/>
-</div>
+We're using emojis instead of traditional image icons to align with how newer generations communicate. Emojis are lightweight, look sharp on any screen size, are easy to customize, and come with built-in accessibility descriptions—making (Unicode characters) them a flexible and inclusive choice for our course design.
 
 Standard icons for specific content types:
 - 💡 Content Purpose
@@ -80,6 +78,12 @@ Standard icons for specific content types:
 - 📺 Video Content
 - 📝 Assignments
 
+When in doubt about which emoji to use, contact Ana M. Peñaranda ([ana.penarandaleal@csuci.edu](mailto:ana.penarandaleal@csuci.edu)).
+
+For PDFs, use the image icon provided in the link below. 
+<div align="center">
+  <img src="components/icons/PDF-Icon.png" alt="PDF Icon" width="80"/>
+</div>
 👉 **[Browse All Icons](components/icons/)**
 
 <div align="center">

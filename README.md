@@ -45,7 +45,7 @@ This repository contains ready-to-use UI components for building Canvas courses 
 
 ✨ **[View Complete Style Guide Document](https://docs.google.com/document/d/1FqPsk0VLODkxEGyBLVnoIZRcHCWer9_nRR4w81oCWeE/edit?usp=sharing)**
 
-![Example Course Page](assets/images/example-preview.png)
+![Example Course Page](assets/images/example-preview.pdf)
 
 ---
 
@@ -105,10 +105,10 @@ When in doubt about which emoji to use, contact Ana M. Peñaranda ([ana.penarand
 </div>
 
 - Accordions
-- Call outs
-- Back to Top Button
+- Callouts
 - Buttons
-- Cards and Sections
+- Back to Top Button
+- Sections and Cards
 
 👉 **[Browse Interactive Elements](components/interactive/)**
 
@@ -139,14 +139,6 @@ Pre-built page templates ready to use in Canvas:
       <img src="assets/images/template-assignment.png" alt="Assignment Template" width="100%"/>
     </a>
   </div>
-  <div style="width: 48%; margin-bottom: 20px;">
-    <h3>Discussion</h3>
-    <a href="templates/discussion-page.html">
-      <img src="assets/images/template-discussion.png" alt="Discussion Template" width="100%"/>
-    </a>
-  </div>
-</div>
-
 
 👉 **[Browse All Templates](templates/)**
 

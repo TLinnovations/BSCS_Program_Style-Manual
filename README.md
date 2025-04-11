@@ -81,10 +81,11 @@ Standard icons for specific content types:
 When in doubt about which emoji to use, contact Ana M. Peñaranda ([ana.penarandaleal@csuci.edu](mailto:ana.penarandaleal@csuci.edu)).
 
 For PDFs, use the image icon provided in the link below. 
-<div align="center">
-  <img src="components/icons/PDF-Icon.png" alt="PDF Icon" width="80"/>
+<div align="left">
+  <img src="components/icons/PDF-Icon.png" alt="PDF Icon" width="80"/> 
 </div>
-👉 **[Browse All Icons](components/icons/)**
+
+👉 **[Browse All Icons](components/icons/)** 
 
 <div align="center">
   <p>• • • • • • • • • • • • • • • • • • • •</p>

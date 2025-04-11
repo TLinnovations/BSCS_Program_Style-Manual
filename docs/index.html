@@ -6,81 +6,91 @@
     <title>BSCS Online Program UI Component Library</title>
     <style>
         :root {
-            --primary-color: #0A1E3F;
-            --secondary-color: #2CA4CD;
-            --accent-color: #00B4D8;
-            --light-bg: #f8f9fa;
-            --border-color: #e0e0e0;
-            --text-color: #333333;
-            --heading-color: #1a4b8c;
+            --bg-color: #212121;
+            --surface-color: #2c2c2c;
+            --primary-color: #bb86fc;
+            --secondary-color: #b15dff;
+            --accent-color: #03dac6;
+            --text-color: #e0e0e0;
+            --text-color-secondary: #a0a0a0;
+            --border-color: #444444;
+            --heading-color: #ffffff;
         }
         
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
             line-height: 1.6;
             color: var(--text-color);
-            max-width: 1200px;
+            background-color: var(--bg-color);
+            max-width: 1100px;
             margin: 0 auto;
             padding: 20px;
-            background-color: #f5f7fa;
         }
         
         .header {
             text-align: center;
-            padding: 30px 0;
-            margin-bottom: 30px;
-            background: linear-gradient(135deg, var(--primary-color), #112E55);
-            color: white;
+            padding: 40px 0;
+            margin-bottom: 40px;
+            background-color: var(--surface-color);
             border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
         }
         
         .logo {
             width: 100px;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
+            filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.5));
         }
         
         h1, h2, h3, h4 {
             color: var(--heading-color);
             margin-top: 1.5em;
+            font-weight: 600;
         }
         
         h1 {
-            font-size: 2.2rem;
+            font-size: 2.5rem;
             margin-bottom: 0.5em;
-            color: white;
+            background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
         }
         
         h2 {
             font-size: 1.8rem;
             padding-bottom: 10px;
-            border-bottom: 2px solid var(--accent-color);
+            border-bottom: 2px solid var(--border-color);
+            margin-top: 2em;
         }
         
         h3 {
             font-size: 1.4rem;
             margin-top: 1.5em;
+            color: var(--primary-color);
         }
         
         .subtitle {
-            font-size: 1.2rem;
+            font-size: 1.3rem;
             margin-bottom: 1em;
-            color: rgba(255, 255, 255, 0.9);
+            color: var(--text-color-secondary);
         }
         
         .description {
             font-size: 1.1rem;
-            color: rgba(255, 255, 255, 0.8);
+            color: var(--text-color-secondary);
             max-width: 800px;
             margin: 0 auto;
         }
         
         .section {
-            background-color: white;
+            background-color: var(--surface-color);
             padding: 30px;
-            margin-bottom: 30px;
+            margin-bottom: 40px;
             border-radius: 10px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            border: 1px solid var(--border-color);
         }
         
         .nav-links {
@@ -88,26 +98,33 @@
             justify-content: center;
             flex-wrap: wrap;
             gap: 15px;
-            margin: 30px 0;
+            margin: 30px 0 40px;
+            position: sticky;
+            top: 0;
+            background-color: rgba(33, 33, 33, 0.9);
+            padding: 15px 0;
+            z-index: 100;
+            backdrop-filter: blur(5px);
+            border-radius: 8px;
         }
         
         .nav-links a {
             display: inline-block;
             padding: 10px 20px;
-            background-color: white;
+            background-color: var(--surface-color);
             color: var(--primary-color);
             text-decoration: none;
             border-radius: 25px;
             font-weight: 600;
             transition: all 0.3s ease;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border: 1px solid var(--border-color);
         }
         
         .nav-links a:hover {
-            background-color: var(--accent-color);
-            color: white;
+            background-color: var(--primary-color);
+            color: var(--bg-color);
             transform: translateY(-2px);
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
         }
         
         .center-align {
@@ -123,40 +140,42 @@
         .img-container img {
             max-width: 100%;
             border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            border: 1px solid var(--border-color);
         }
         
         .divider {
             text-align: center;
-            color: #999;
-            margin: 30px 0;
+            color: var(--text-color-secondary);
+            margin: 40px 0;
             font-size: 1.2rem;
         }
         
         table {
             width: 100%;
             border-collapse: collapse;
-            margin: 20px 0;
-            background-color: white;
-            box-shadow: 0 2px 3px rgba(0, 0, 0, 0.05);
+            margin: 25px 0;
+            background-color: var(--surface-color);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
             border-radius: 8px;
             overflow: hidden;
+            border: 1px solid var(--border-color);
         }
         
         th, td {
             padding: 12px 15px;
             text-align: left;
-            border-bottom: 1px solid #eee;
+            border-bottom: 1px solid var(--border-color);
         }
         
         th {
-            background-color: var(--primary-color);
-            color: white;
+            background-color: rgba(187, 134, 252, 0.15);
             font-weight: 600;
+            color: var(--primary-color);
         }
         
         tr:hover {
-            background-color: #f5f5f5;
+            background-color: rgba(255, 255, 255, 0.05);
         }
         
         .emoji-cell {
@@ -167,19 +186,20 @@
         .button {
             display: inline-block;
             padding: 12px 24px;
-            background: linear-gradient(to bottom, var(--primary-color), #112E55);
-            color: white;
+            background-color: var(--primary-color);
+            color: #000;
             text-decoration: none;
             border-radius: 30px;
             font-weight: 600;
             margin: 10px 0;
             transition: all 0.3s ease;
-            border: 3px solid var(--secondary-color);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
         }
         
         .button:hover {
             transform: translateY(-2px);
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            background-color: var(--secondary-color);
         }
         
         .button-icon {
@@ -188,54 +208,82 @@
         
         .card-container {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-            margin-top: 25px;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 25px;
+            margin-top: 30px;
+        }
+        
+        @media (max-width: 768px) {
+            .card-container {
+                grid-template-columns: 1fr;
+            }
         }
         
         .card {
-            background: linear-gradient(135deg, #ffffff, #f7f9fc);
-            border-radius: 8px;
+            background-color: var(--surface-color);
+            border-radius: 12px;
             overflow: hidden;
             border: 1px solid var(--border-color);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-direction: column;
         }
         
         .card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+            border-color: var(--primary-color);
         }
         
         .card-content {
-            padding: 20px;
+            padding: 25px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
         }
         
         .card-icon {
-            width: 50px;
-            height: 50px;
-            background-color: rgba(0,180,216,0.1);
+            width: 60px;
+            height: 60px;
+            background-color: rgba(187, 134, 252, 0.1);
             border-radius: 50%;
-            margin: 0 auto 15px;
+            margin: 0 auto 20px;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 28px;
+            font-size: 30px;
         }
         
         .card-title {
             margin: 15px 0;
-            color: var(--heading-color);
-            font-size: 18px;
+            color: var(--primary-color);
+            font-size: 20px;
             text-align: center;
+        }
+        
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        
+        a:hover {
+            color: var(--primary-color);
+            text-decoration: underline;
+        }
+        
+        ul li, ol li {
+            margin-bottom: 8px;
         }
         
         footer {
             text-align: center;
-            padding: 30px 0;
-            color: #777;
+            padding: 40px 0 20px;
+            color: var(--text-color-secondary);
             font-size: 0.9rem;
             margin-top: 50px;
-            border-top: 1px solid #eee;
+            border-top: 1px solid var(--border-color);
         }
         
         .team-section {
@@ -243,20 +291,29 @@
         }
         
         .team-member {
-            margin-bottom: 10px;
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            border-left: 3px solid var(--primary-color);
         }
         
         .team-role {
-            color: #666;
+            color: var(--text-color-secondary);
             font-style: italic;
+            display: block;
+            margin-top: 5px;
         }
         
         .team-email {
             color: var(--accent-color);
             text-decoration: none;
+            display: inline-block;
+            margin-top: 5px;
         }
         
         .team-email:hover {
+            color: var(--primary-color);
             text-decoration: underline;
         }
         
@@ -264,20 +321,42 @@
             display: block;
             width: 80px;
             margin: 15px 0;
+            filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.3));
+        }
+        
+        code {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 2px 5px;
+            border-radius: 4px;
+            font-family: 'Fira Code', 'Consolas', monospace;
+            font-size: 0.9em;
+        }
+        
+        blockquote {
+            border-left: 4px solid var(--accent-color);
+            padding-left: 20px;
+            margin-left: 0;
+            font-style: italic;
+            color: var(--text-color-secondary);
+        }
+        
+        strong {
+            color: var(--heading-color);
+            font-weight: 600;
         }
     </style>
 </head>
 <body>
     <div class="header" id="top">
-        <img src="assets/images/TLi_Logo.png" alt="TLi Teaching and Learning Innovations Logo" class="logo" />
-        <h1>BSCS Online Program UI Component Library</h1>
+        <img src="/assets/images/TLi_Logo.png" alt="TLi Teaching and Learning Innovations Logo" class="logo" />
+        <h1>BSCS UI Component Library</h1>
         <p class="subtitle">CSU Channel Islands | TLi & Extended University</p>
         <p class="description">A visual component library for creating consistent Canvas online courses</p>
     </div>
     
     <div class="nav-links">
         <a href="#about">About</a>
-        <a href="#visual-components">Visual Components</a>
+        <a href="#visual-components">Components</a>
         <a href="#style-guide">Style Guide</a>
         <a href="#accessibility">Accessibility</a>
         <a href="#contact">Contact</a>
@@ -339,8 +418,8 @@
                 <span class="button-icon">✨</span> View Complete Style Guide Document
             </a>
             
-            <p>Check out examples of course pages:</p>
-            <a href="assets/images/example-preview.pdf" class="button" target="_blank">
+            <p style="margin-top: 25px;">Check out examples of course pages:</p>
+            <a href="/assets/images/example-preview.pdf" class="button" target="_blank">
                 <span class="button-icon">📄</span> Example Course Pages
             </a>
         </div>
@@ -351,13 +430,13 @@
         
         <h3>Module Banners</h3>
         <div class="img-container">
-            <img src="components/banners/modules/Modules_800x300_Banner@2x.png" alt="Module Banner Example" style="max-width: 800px;" />
+            <img src="/components/banners/modules/Modules_800x300_Banner@2x.png" alt="Module Banner Example" style="max-width: 800px;" />
         </div>
         
         <p>Each module page will begin with a banner. Once the SME has finalized the modules titles, please notify Ana M Penaranda (<a href="mailto:ana.penarandaleal@csuci.edu" class="team-email">ana.penarandaleal@csuci.edu</a>). She will upload the corresponding banner to the link below for you to download.</p>
         
         <div class="center-align">
-            <a href="components/banners/modules/" class="button">
+            <a href="/components/banners/modules/" class="button">
                 <span class="button-icon">👉</span> Browse All Banners
             </a>
         </div>
@@ -365,7 +444,7 @@
         <div class="divider">• • • • • • • • • • • • • • • • • • • •</div>
         
         <h3>Emoji-Based Iconography 🎯</h3>
-        <p>We're using emojis instead of traditional image icons to align with how newer generations communicate. Emojis are lightweight, look sharp on any screen size, are easy to customize, and come with built-in accessibility descriptions—making (Unicode characters) them a flexible and inclusive choice for our course design.</p>
+        <p>We're using emojis instead of traditional image icons to align with how newer generations communicate. Emojis are lightweight, look sharp on any screen size, are easy to customize, and come with built-in accessibility descriptions—making them a flexible and inclusive choice for our course design.</p>
         
         <p>This table provides the recommended emojis for consistent and accessible iconography across modules in the online course.</p>
         
@@ -437,10 +516,10 @@
         </table>
         
         <p>For PDFs, use the image icon provided below:</p>
-        <img src="components/icons/PDF-Icon.png" alt="PDF Icon" class="pdf-icon" />
+        <img src="/components/icons/PDF-Icon.png" alt="PDF Icon" class="pdf-icon" />
         
         <div class="center-align">
-            <a href="components/icons/" class="button">
+            <a href="/components/icons/" class="button">
                 <span class="button-icon">👉</span> Browse All Icons
             </a>
         </div>
@@ -451,19 +530,42 @@
         
         <h3>Interactive Elements</h3>
         <div class="img-container">
-            <img src="components/interactive/interactive-components.png" alt="Interactive Elements" style="max-width: 900px;" />
+            <img src="/components/interactive/interactive-components.png" alt="Interactive Elements" style="max-width: 900px;" />
         </div>
         
-        <ul>
-            <li>Accordions</li>
-            <li>Callouts</li>
-            <li>Buttons</li>
-            <li>Back to Top Button</li>
-            <li>Sections and Cards</li>
-        </ul>
+        <div class="card-container">
+            <div class="card">
+                <div class="card-content">
+                    <div class="card-icon">📋</div>
+                    <h3 class="card-title">Accordions</h3>
+                    <p>Collapsible content sections for organizing information in a compact format.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <div class="card-icon">💡</div>
+                    <h3 class="card-title">Callouts</h3>
+                    <p>Highlighted information boxes for important notes, warnings, and tips.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <div class="card-icon">🔘</div>
+                    <h3 class="card-title">Buttons</h3>
+                    <p>Interactive navigation elements with consistent styling and accessibility features.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <div class="card-icon">⬆️</div>
+                    <h3 class="card-title">Back to Top</h3>
+                    <p>Navigation aid for long pages, helping users return to the beginning quickly.</p>
+                </div>
+            </div>
+        </div>
         
-        <div class="center-align">
-            <a href="components/interactive/index.html" class="button">
+        <div class="center-align" style="margin-top: 30px;">
+            <a href="/components/interactive/index.html" class="button">
                 <span class="button-icon">👉</span> Browse Interactive Elements
             </a>
         </div>
@@ -505,19 +607,19 @@
         <div class="team-section">
             <div class="team-member">
                 <strong>Lorna Gonzalez</strong>
-                <span class="team-role"> - Director of Digital Learning</span><br>
+                <span class="team-role">Director of Digital Learning</span>
                 <a href="mailto:lorna.gonzales@csuci.edu" class="team-email">lorna.gonzales@csuci.edu</a>
             </div>
             
             <div class="team-member">
                 <strong>Ana M. Penaranda</strong>
-                <span class="team-role"> - Learning Design Lead & Project Manager</span><br>
+                <span class="team-role">Learning Design Lead & Project Manager</span>
                 <a href="mailto:ana.penarandaleal@csuci.edu" class="team-email">ana.penarandaleal@csuci.edu</a>
             </div>
             
             <div class="team-member">
                 <strong>Kristi O'Neil-Gonzalez</strong>
-                <span class="team-role"> - Accessibility & Inclusive Design Lead</span><br>
+                <span class="team-role">Accessibility & Inclusive Design Lead</span>
                 <a href="mailto:kristi.oneilgonzalez@csuci.edu" class="team-email">kristi.oneilgonzalez@csuci.edu</a>
             </div>
         </div>
